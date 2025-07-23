@@ -31,3 +31,67 @@ telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsucc
 2025-07-23 14:04:59,101 - __main__ - INFO - Бот запущен
 2025-07-23 14:06:25,660 - __main__ - INFO - Бот запущен
 2025-07-23 14:13:58,493 - __main__ - INFO - Бот запущен
+2025-07-23 15:10:19,826 - __main__ - INFO - ===== БОТ ЗАПУЩЕН =====
+2025-07-23 15:10:47,195 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Пользователь начал работу с ботом
+2025-07-23 15:10:49,675 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Начал оформление заказа
+2025-07-23 15:10:51,366 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал тип печати: чб
+2025-07-23 15:10:59,381 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Указал количество страниц: 50
+2025-07-23 15:11:02,692 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал формат бумаги: A4
+2025-07-23 15:11:05,898 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал тип печати: двухсторонняя
+2025-07-23 15:11:49,251 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Загрузил файл: TTK.docx
+2025-07-23 15:12:01,634 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Добавил комментарий: нужно все сделать красиво
+2025-07-23 15:12:01,844 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Показал итог заказа. Сумма: 1125.0 руб.
+2025-07-23 15:12:08,604 - __main__ - ERROR - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - ERROR: Ошибка создания инвойса: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse labeled price: Field "amount" must be a valid Number
+2025-07-23 15:12:12,045 - __main__ - ERROR - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - ERROR: Ошибка создания инвойса: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse labeled price: Field "amount" must be a valid Number
+2025-07-23 15:12:13,204 - __main__ - ERROR - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - ERROR: Ошибка создания инвойса: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse labeled price: Field "amount" must be a valid Number
+2025-07-23 15:12:55,485 - __main__ - ERROR - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - ERROR: Ошибка создания инвойса: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse labeled price: Field "amount" must be a valid Number
+2025-07-23 15:17:19,169 - __main__ - INFO - ===== БОТ ЗАПУЩЕН =====
+2025-07-23 15:17:30,145 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Пользователь начал работу с ботом
+2025-07-23 15:17:31,890 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Начал оформление заказа
+2025-07-23 15:17:33,094 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал тип печати: чб
+2025-07-23 15:17:35,679 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Указал количество страниц: 4
+2025-07-23 15:17:36,711 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал формат бумаги: A5
+2025-07-23 15:17:38,847 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал тип печати: двухсторонняя
+2025-07-23 15:17:49,917 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Загрузил файл: TTK.docx
+2025-07-23 15:17:58,079 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Добавил комментарий: нет
+2025-07-23 15:17:58,281 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Показал итог заказа. Сумма: 60 руб.
+2025-07-23 15:18:01,563 - __main__ - ERROR - Ошибка создания инвойса: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: PAYMENT_PROVIDER_INVALID
+Traceback (most recent call last):
+  File "c:\Users\Давид\volodyabot\practic.py", line 261, in confirm_order
+    bot.send_invoice(
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\__init__.py", line 5434, in send_invoice
+    apihelper.send_invoice(
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\apihelper.py", line 1783, in send_invoice
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: PAYMENT_PROVIDER_INVALID
+2025-07-23 15:38:43,142 - __main__ - INFO - ===== БОТ ЗАПУЩЕН =====
+2025-07-23 15:40:47,486 - __main__ - INFO - ===== БОТ ЗАПУЩЕН =====
+2025-07-23 15:41:03,165 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Пользователь начал работу с ботом
+2025-07-23 15:41:03,166 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Отменил заказ
+2025-07-23 15:41:05,836 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Начал оформление заказа
+2025-07-23 15:41:06,980 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал тип печати: чб
+2025-07-23 15:41:09,330 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Указал количество страниц: 1
+2025-07-23 15:41:10,903 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал формат бумаги: A2
+2025-07-23 15:41:25,387 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Загрузил файл: TTK.docx
+2025-07-23 15:41:27,645 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Пропустил добавление комментария
+2025-07-23 15:41:28,322 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Показал итог заказа. Сумма: 30 руб.
+2025-07-23 15:41:44,059 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Пользователь начал работу с ботом
+2025-07-23 15:41:44,060 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Отменил заказ
+2025-07-23 15:44:12,576 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Пользователь начал работу с ботом
+2025-07-23 15:44:18,695 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Начал оформление заказа
+2025-07-23 15:44:23,004 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Выбрал тип печати: цветная
+2025-07-23 15:44:28,562 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Указал количество страниц: 45
+2025-07-23 15:44:31,923 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Выбрал формат бумаги: A4
+2025-07-23 15:44:37,320 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Начал оформление заказа
+2025-07-23 15:44:37,407 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Выбрал тип печати: односторонняя
+2025-07-23 15:44:40,311 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал тип печати: цветная
+2025-07-23 15:44:49,015 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Указал количество страниц: 3
+2025-07-23 15:44:49,142 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Загрузил файл: новодмитровск.xlsx
+2025-07-23 15:44:50,551 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал формат бумаги: A3
+2025-07-23 15:44:52,351 - __main__ - INFO - UserID:931928744 ChatID:931928744 Username:@Musou_Isshin1 - Выбрал тип печати: односторонняя
+2025-07-23 15:44:52,991 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Пропустил добавление комментария
+2025-07-23 15:44:53,200 - __main__ - INFO - UserID:5146682619 ChatID:5146682619 Username:@Youngsoul696 - Показал итог заказа. Сумма: 1350.0 руб.

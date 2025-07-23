@@ -1,0 +1,33 @@
+2025-07-22 11:56:53,822 - __main__ - INFO - Пользователь 931928744 запустил бот 
+2025-07-22 11:57:01,067 - __main__ - INFO - Пользователь 931928744 запустил бот 
+2025-07-23 11:33:43,840 - __main__ - INFO - Бот запущен
+2025-07-23 11:34:15,302 - __main__ - INFO - Бот запущен
+2025-07-23 11:35:32,048 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-07-23 11:35:32,048 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "c:\Users\Давид\volodyabot\zapaska.py", line 96, in finish_order
+    bot.send_message(owner_id,
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\Давид\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+
+2025-07-23 11:36:15,242 - __main__ - INFO - Бот запущен
+2025-07-23 12:04:32,847 - __main__ - INFO - Бот запущен
+2025-07-23 12:14:45,153 - __main__ - INFO - Бот запущен
+2025-07-23 14:04:59,101 - __main__ - INFO - Бот запущен
+2025-07-23 14:06:25,660 - __main__ - INFO - Бот запущен
+2025-07-23 14:13:58,493 - __main__ - INFO - Бот запущен

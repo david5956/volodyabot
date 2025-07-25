@@ -331,8 +331,8 @@ def process_successful_payment(message):
             reply_markup=types.ReplyKeyboardRemove()
         )
         
-        # Уведомление владельцу (замените 123456789 на ваш ID)
-        owner_id = 123456789
+        # Уведомление владельцу 
+        owner_id = ADMIN_ID
         bot.send_message(
             owner_id,
             f"💰 Новый оплаченный заказ!\n"
